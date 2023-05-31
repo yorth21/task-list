@@ -1,0 +1,53 @@
+.header__container {
+  margin-top: 6rem;
+  display: grid;
+  place-items: center;
+}
+
+.header__h1 {
+  text-align: center;
+}
+
+.form__add {
+  background-color: #146c94;
+  margin-left: 1rem;
+  padding: 0.6em 1.2em;
+  border-radius: 0.8rem;
+}
+
+.form__add:hover {
+  border: 1px solid #a5a5a5;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.list__task {
+  margin-top: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+.task {
+  background-color: #222;
+  width: 32rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.8rem;
+  border: 1px solid #444;
+  color: #cacaca;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task__del {
+  border: 1px solid red;
+}
+
+.task__del:hover {
+  background-color: rgba(255, 0, 0, 0.308);
+}
